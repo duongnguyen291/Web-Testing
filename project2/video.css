@@ -1,7 +1,7 @@
 .body-check{
     margin:0;
     padding-top:50px;
-    padding-left:60px;
+    padding-left:200px;
 }
 
 .video{
@@ -10,8 +10,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
 }
+
 .video-div{
     cursor: pointer;
+}
+.videoandtime{
     position: relative;
 }
 .video-div:hover{
@@ -30,7 +33,7 @@
     font-size:13px;
     color:white;
     right:10px;
-    bottom:93px;
+    bottom:10px;
 }
 
 .thumnails{
