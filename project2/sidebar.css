@@ -27,19 +27,15 @@
     border-radius: 5px;
     cursor:pointer;   
 }
-.sidebar-content-channel{
-    display: grid;
-    grid-template-columns: 1fr;
-}
+
 .sidebar-content-content-2{
     display:grid;
-    /* justify-content: center; 
-    align-items: center; */
     border:none;
-    border-radius: 5px;
+    border-radius: 12px;
     cursor:pointer;   
-    grid-template-columns: 25px 1fr;
+    grid-template-columns:25px 1fr;
     grid-gap: 5px;
+    margin-left:8px;
 }
 .sidebar-content-content-2:hover{
     background-color: #dad6d6;
