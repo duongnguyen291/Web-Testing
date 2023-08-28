@@ -10,6 +10,7 @@
     background-color: white;
     border-bottom: 1px solid gray;
     padding-top:5px;
+    z-index:100;
 }
 .search-bar{
     height: 30px;
@@ -23,15 +24,4 @@
 }
 .search-bar:hover{
     box-shadow: 0 0 3px 3px #888888;
-    
-}
-.sidebar{
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    left:0;
-    top:45px;
-    bottom:0;
-    width: 50px;
-    background-color: gray;
 }
