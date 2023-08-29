@@ -22,10 +22,12 @@ header {
     left:0;
     width: 100%;
     padding: 20px 40px;
-    position: absolute;
+    position: fixed;
     display:flex;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
+
 }
 header .container{
     /* hình dạng của container*/
@@ -59,7 +61,7 @@ header .second-header{
     display: flex;
     flex-direction: row;
     gap: 30px;
-    margin:10px;
+    margin:8px;
     cursor: pointer;
     justify-content: space-between;
     align-items: center;
