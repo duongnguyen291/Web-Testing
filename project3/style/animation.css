@@ -1,0 +1,13 @@
+@keyframes Up{
+    from{
+        transform: translateY(300px);
+    }
+    to{
+        tranfrom: translateY(0px);
+    }
+}
+/* section .section2-picture{
+    animation-name: Up;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+} */

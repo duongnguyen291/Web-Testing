@@ -1,22 +1,106 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Web</title>
-        <link rel="stylesheet" href="style/style-all.css">
+        <title>Duong Nguyen</title>
+        <link rel="stylesheet" href="style/body and header.css">
+        <link rel="stylesheet" href="style/section.css">
+        <link rel="stylesheet" href="style/animation.css">
+        
     </head>
     <body>
         <header> 
-            <a href="#">logo</a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Persional Information</a></li>
-                <li><a href="#">Achievement</a></li>
-                <li><a href="#">Certificates</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Connect</a></li>
-                <li><a href="#">More</a></li>
-            </ul>
+            <div class ="container">
+                    <div class="top-header">
+                        <a href="#">
+                            <img class="logo" src="picture/avatar.jpg"> 
+                        </a>
+                    </div>
+                        <nav  class ="second-header">
+                            <a href="#Home" class ="header-link">Home</a>
+                            <a href="#Information" class ="header-link">Information</a>
+                            <a href="#Achievement" class ="header-link">Achievement</a>
+                            <a href="#" class ="header-link">Activities</a>
+                            <a href="#" class ="header-link">Certificates</a>
+                            <a href="#" class ="header-link">Connect</a>
+                            <a href="#" class ="header-link">More</a>
+                    </nav>
+            </div>
         </header>
-        <p class="test">TEST</p>
+        <section id="Home">
+            <img src="picture/background2.jpg" class="background-1" id="Home">
+            <div class ="section1-body">
+                <div class ="section1-introduction">
+                    <p class="section1-body-introduction-1">ABOUT ME</p>
+                    <p class="section1-body-introduction-2"> Hello, welcome to my website. 
+                        My name is Nguyễn Đình Dương and I am a student of Hanoi University of Science and Technology (HUST). 
+                        I am currently in my second year of studying Information and Communication Technology (ICT). 
+                        I created this website to showcase some of my projects, skills, Certificates and Achievements. 
+                        I hope you find my website informative and interesting. Thank you for visiting.
+                    </p>
+                    <div class="section1-body-introduction-3">
+                        <button class="section1-body-introduction-3-button">
+                            Know more
+                        </button>
+                        <button class="section1-body-introduction-3-button">
+                            Contact me
+                        </button>
+                    </div>
+                </div>
+                <div  class="section1-picture">
+                    <img class="section1-picture-1" src="picture/new_ava-removebg-preview.png">
+                </div>
+            </div>
+        </section>
+        <section id="Information">  
+            <img src="picture/background3.jpg" class="background-2"> 
+            <div class="section2-body">
+                <div class ="section2-avatar">
+                    <img class="section2-picture" src="picture/new ava.jpg">
+                </div>
+                <div class ="section2-information">
+                    <p class="section2-information-font">Name: Nguyễn Đình Dương</p>
+                    <p class="section2-information-font">Birthday: 29/01/2004</p>
+                    <p class="section2-information-font">
+                        <a href="https://hust.edu.vn/" class="link" target="_blank">University: Hanoi University of Science and Technology (HUST)</a>
+                    </p>
+                    <p class="section2-information-font">Major: Infomation Technology and Communication </p>
+                    <p class="section2-information-font">Academic year: Sophomore </p>
+                    <p class="section2-information-font" style="text-align: justify;">Career goals: My career objective is to explore various 
+                        domains in the Information and Communication Technology industry, 
+                        such as Data, Web, Design, Software, and more. I want to develop 
+                        my skills and knowledge in these areas and find out which one suits
+                         me best. I am passionate about learning new technologies and applying
+                          them to real-world problems. I hope to contribute to the innovation 
+                          and advancement of the ICT sector.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="Achievement">
+            <img src="picture/background4.jpg" class="background-2">
+            <diV class="section3-body">
+                <div class="section3-body-pictures">
+                    <img src="achivements/giai thanh pho.jpg" class="section3-body-pictures-child">
+                </div>
+                <div class="section3-body-achivements">
+                    <div class="section3-body-achivements-child">
+                        <p>2019</p>
+                    </div>
+                    <div class="section3-body-achivements-child">
+                        <p>2020</p>
+                    </div>
+                    <div class="section3-body-achivements-child">
+                        <p>2021</p>
+                    </div>
+
+                </div>
+            </diV>
+        </section>
+        <!-- <section>
+            <img src="picture/background4.jpg">
+            <diV class="section3-body">
+
+            </diV>
+        </section> -->
     </body>
 </html>
