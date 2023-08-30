@@ -133,13 +133,13 @@ section .section2-body{
     justify-content: space-between;
     align-items: center;
     position: relative;
-    gap: 200px;
-    top: 300px;
+    gap: 15vh;
+    top: 150px;
     margin-left: 10vh;
     margin-right: 10vh;
 }
 section .section2-picture{
-    width: 50vh;
+    width: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,15 +147,25 @@ section .section2-picture{
     border-radius: 50%;
     animation-duration: 1s;
 }
+
+
 section .section2-information{
     display: flex;
     flex-direction: column;
     gap:20px;
     font-size:23px;
     color: white;
+    background: rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+section .section1-information-box{
+    margin:10px;
+    padding: 10px;
 }
 section .section2-information-font{
     font-family: 'Courier New', Courier, monospace;
+    margin:5px 5px 2px 5px;
+    padding :10px;
 }
 section .background-3{
     width: 100%;
@@ -175,6 +185,9 @@ section .background-3{
     border:1px solid white;
     margin:15vh 15vh 2vh 15vh;
     height: 35vh;
+    flex-direction: row;
+    gap:10px;
+    overflow: auto;
 }
 .section3-body-pictures-child{
     display: flex;
@@ -183,6 +196,8 @@ section .background-3{
     border-radius: 20px;
     width: 60vh;
     height: 30vh;
+    font-size: 15px;    
+
 }
 .section3-body-achivements{
     display: flex;
@@ -193,17 +208,40 @@ section .background-3{
     margin: 5vh 30vh 5vh 30vh;
 }
 .section3-body-achivements-child{
-    background-color: rgb(187, 5, 76);
+    background-color: rgba(187, 5, 76,0.8);
     border:none;
     border-radius: 40px;
     width: 28vh;
     height: 40vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: left;
     padding:15px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
     font-size:23px;
+    box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.2),
+                -4px -4px 6px -1px rgba(255,255,255,0.7);
+}
+.section3-body-achivements-child:hover{
+    transform: translateY(-25px);
+    transition: 0.5s;
+}
+section .text-h1{
+    font-size:20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin:10px;
+}
+section .text-h2{
+    font-size:15px;
+    margin:4px;
+}
+section .background-3{
+    width: 100%;
+    height: 100vh;
+    object-fit:cover;
+    overflow: auto;
+    z-index: -1;
+    position: absolute;
 }
