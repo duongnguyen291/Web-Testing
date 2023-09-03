@@ -282,6 +282,7 @@ section .text-h2{
     font-size:28px;
     text-decoration: none;
     color:white;
+    text-align: center;
 
 }
 .cert-label:hover{

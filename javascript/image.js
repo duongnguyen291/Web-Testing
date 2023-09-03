@@ -21,7 +21,7 @@ function showGallery(){
     }
     galleryImg.src = images[currentIndex].src
     gallery.classList.add('show')
-}
+}   
 images.forEach((item,index)=>{
     item.addEventListener('click', function(){
         currentIndex = index
